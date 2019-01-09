@@ -1,0 +1,1 @@
+# Easynvest Frontend Test
