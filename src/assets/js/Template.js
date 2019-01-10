@@ -48,9 +48,7 @@ class Template {
           <button data-js="btnGoToList" class="btn btn--default">< Voltar</button>
         </header>
         <form class="edituser__form" data-js="editUserForm">
-        <input type="hidden" name="id" value="${
-          props[1]
-          }" data-js="field-id" />
+        <input type="hidden" name="id" value="${props[1]}" data-js="field-id" />
           <div class="form-group">
             <div class="input">
                <input type="text" name="name" class="input__field"  value="${
