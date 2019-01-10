@@ -56,13 +56,13 @@ class Template {
                <input type="text" name="name" class="input__field"  value="${
                  user.name
                }" data-js="field-name"  />
-               <label class="input__label">Nome</label>
+               <label class="input__label">Nome*</label>
           </div>
           <div class="input">
             <input type="text" name="phone" class="input__field" value="${
               user.phone
             }" data-js="field-phone"  />
-            <label class="input__label">Celular</label>
+            <label class="input__label">Celular*</label>
           </div>
           <div class="input">
             <input
@@ -72,13 +72,13 @@ class Template {
               value="${user.email}"
               data-js="field-email"
                />
-              <label class="input__label">E-mail</label>
+              <label class="input__label">E-mail*</label>
           </div>
           <div class="input">
             <input type="cpf" name="email" class="input__field" value="${
               user.cpf
             }" data-js="field-cpf"  />
-            <label class="input__label">CPF</label>
+            <label class="input__label">CPF*</label>
           </div>
           <div class="edituser__form__actions">
             <button data-js="btnUpdateUser" class="btn btn--primary">Atualizar</button>
@@ -98,13 +98,13 @@ class Template {
           <div class="form-group">
             <div class="input">
                 <input type="text" name="name" class="input__field" data-js="field-name" data-input-type="string" />
-                <label class="input__label">Nome</label>
+                <label class="input__label">Nome*</label>
             </div>
           </div>
           <div class="form-group">
             <div class="input">
               <input type="text" name="phone" class="input__field" data-js="field-phone" data-input-type="number" />
-              <label class="input__label">Celular (com ddd)</label>
+              <label class="input__label">Celular* (com ddd)</label>
             </div>
           </div>
           <div class="form-group">
@@ -115,13 +115,13 @@ class Template {
                 class="input__field"
                 data-js="field-email"
                 />
-                <label class="input__label">E-mail</label>
+                <label class="input__label">E-mail*</label>
             </div>
           </div>
           <div class="form-group">
             <div class="input">
               <input type="cpf" name="email" class="input__field" data-js="field-cpf"  />
-              <label class="input__label">CPF</label>
+              <label class="input__label">CPF*</label>
             </div>
           </div>
           <div class="edituser__form__actions">
