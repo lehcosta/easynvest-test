@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "cypress:open": "cypress open"
   },
   "devDependencies": {
     "autoprefixer": "^9.4.4",
@@ -20,6 +21,7 @@
     "babel-preset-es2015": "^6.24.1",
     "css-loader": "^2.1.0",
     "cssnano": "^4.1.8",
+    "cypress": "^3.1.4",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
