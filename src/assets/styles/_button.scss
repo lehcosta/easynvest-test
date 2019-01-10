@@ -1,0 +1,33 @@
+.btn {
+  border: none;
+  cursor: pointer;
+  height: 50px;
+  font-weight: 700;
+  outline: 0;
+  display: inline-block;
+
+  &:disabled {
+    background: #f6f6f6;
+    color: #dddcdc;
+    pointer-events: none;
+  }
+
+  &--default {
+    text-decoration: underline;
+    height: auto;
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  &--primary {
+    background: $primary;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 50px;
+    &:hover {
+      background: lighten($color: $primary, $amount: 0.7);
+    }
+  }
+}

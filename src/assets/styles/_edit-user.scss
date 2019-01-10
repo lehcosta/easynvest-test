@@ -1,0 +1,13 @@
+.edituser {
+  &__header {
+    padding: 30px 0;
+  }
+  &__form {
+    &__actions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 0;
+    }
+  }
+}

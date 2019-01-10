@@ -1,0 +1,17 @@
+.listusers {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+
+    &__title {
+      flex: 1 auto;
+      display: block;
+    }
+  }
+  &__table {
+    width: 100%;
+    overflow-x: auto;
+  }
+}
