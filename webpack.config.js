@@ -10,6 +10,8 @@ module.exports = {
   entry: path.join(__dirname, "/src/index.js"),
   output: {
     path: path.resolve(__dirname, "dist"),
+    libraryTarget: 'umd',
+    libraryExport: 'default',
     filename: "[name].bundle.js"
   },
   module: {
