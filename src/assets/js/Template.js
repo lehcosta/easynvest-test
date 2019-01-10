@@ -48,37 +48,44 @@ class Template {
           <button data-js="btnGoToList" class="btn btn--default">< Voltar</button>
         </header>
         <form class="edituser__form" data-js="editUserForm">
-          <input type="hidden" name="id" value="${
-            props[1]
+        <input type="hidden" name="id" value="${
+          props[1]
           }" data-js="field-id" />
-          <div class="input">
-
+          <div class="form-group">
+            <div class="input">
                <input type="text" name="name" class="input__field"  value="${
                  user.name
                }" data-js="field-name"  />
                <label class="input__label">Nome*</label>
+            </div>
           </div>
-          <div class="input">
-            <input type="text" name="phone" class="input__field" value="${
-              user.phone
-            }" data-js="field-phone"  />
-            <label class="input__label">Celular*</label>
+          <div class="form-group">
+            <div class="input">
+              <input type="text" name="phone" class="input__field" value="${
+                user.phone
+              }" data-js="field-phone"  />
+              <label class="input__label">Celular*</label>
+            </div>
           </div>
-          <div class="input">
-            <input
-              type="text"
-              name="email"
-              class="input__field"
-              value="${user.email}"
-              data-js="field-email"
-               />
-              <label class="input__label">E-mail*</label>
+          <div class="form-group">
+            <div class="input">
+              <input
+                type="text"
+                name="email"
+                class="input__field"
+                value="${user.email}"
+                data-js="field-email"
+                />
+                <label class="input__label">E-mail*</label>
+            </div>
           </div>
-          <div class="input">
-            <input type="cpf" name="email" class="input__field" value="${
-              user.cpf
-            }" data-js="field-cpf"  />
-            <label class="input__label">CPF*</label>
+          <div class="form-group">
+            <div class="input">
+              <input type="cpf" name="email" class="input__field" value="${
+                user.cpf
+              }" data-js="field-cpf"  />
+              <label class="input__label">CPF*</label>
+            </div>
           </div>
           <div class="edituser__form__actions">
             <button data-js="btnUpdateUser" class="btn btn--primary">Atualizar</button>
